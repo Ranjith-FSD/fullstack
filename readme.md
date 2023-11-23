@@ -15,5 +15,18 @@
         - give the repository name
         - leave the visibility as public
         - create repository
-
+ 11. copy the url of the repository
+    12. configure the git with the username and email (only once)
+        - git config --global user.name "your username"
+        - git config --global user.email "your email"
+    13. add the remote repository url to the local repository
+        - git remote add origin "https://github.com/sathish-fullstackdeveloper/b54wd.git"
+    14. check the remote repository url is added or not
+        - git remote -v
+    15. check the status of the local repository to know the files which are modified
+        - git status
+    16. add the files to the staging area
+        - git add . or git add filename
+    17. commit the files to the local repository with a message
+        - git commit -m "message"
 */
